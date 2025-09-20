@@ -1,21 +1,21 @@
-content_id,title,subject,difficulty,type
-1,Algebra Basics,Math,Easy,Video
-2,Advanced Geometry,Math,Hard,Quiz
-3,Human Body Systems,Science,Medium,Text
-4,World War II Overview,History,Medium,Video
-5,Photosynthesis Basics,Science,Easy,Quiz
-6,Linear Equations,Math,Medium,Text
-7,Cell Structure,Science,Easy,Video
-8,Indian Independence,History,Hard,Text
-9,Probability Intro,Math,Medium,Video
-10,Periodic Table,Science,Medium,Quiz
-11,Medieval India,History,Easy,Text
-12,Quadratic Equations,Math,Hard,Video
-13,Ecosystems,Science,Hard,Text
-14,Renaissance Art,History,Medium,Video
-15,Fractions & Decimals,Math,Easy,Text
-16,Genetics Basics,Science,Medium,Video
-17,Modern World Conflicts,History,Hard,Quiz
-18,Coordinate Geometry,Math,Medium,Text
-19,Acids and Bases,Science,Easy,Quiz
-20,Constitution of India,History,Medium,Text
+content_id,title,subject,difficulty,type,quiz_link,video_link
+1,Algebra Basics,Math,Easy,Video,https://forms.gle/mathquiz1,https://www.youtube.com/watch?v=QVKj3LADCnA
+2,Advanced Geometry,Math,Hard,Quiz,https://forms.gle/mathquiz2,https://www.youtube.com/watch?v=VogpjHmDPk0
+3,Human Body Systems,Science,Medium,Text,https://forms.gle/sciencequiz1,https://www.youtube.com/watch?v=FaaZC5wluHs
+4,World War II Overview,History,Medium,Video,https://forms.gle/historyquiz1,https://www.youtube.com/watch?v=HUqy-OQvVtI
+5,Photosynthesis Basics,Science,Easy,Quiz,https://forms.gle/sciencequiz2,https://www.youtube.com/watch?v=UPBMG5EYydo
+6,Linear Equations,Math,Medium,Text,https://forms.gle/mathquiz3,https://www.youtube.com/watch?v=QVKj3LADCnA
+7,Cell Structure,Science,Easy,Video,https://forms.gle/sciencequiz3,https://www.youtube.com/watch?v=URUJD5NEXC8
+8,Indian Independence,History,Hard,Text,https://forms.gle/historyquiz2,https://www.youtube.com/watch?v=zdSKfZ5lSbI
+9,Probability Intro,Math,Medium,Video,https://forms.gle/mathquiz4,https://www.youtube.com/watch?v=uzkc_qNVoOk
+10,Periodic Table,Science,Medium,Quiz,https://forms.gle/sciencequiz4,https://www.youtube.com/watch?v=fPnwBITSmgU
+11,Medieval India,History,Easy,Text,https://forms.gle/historyquiz3,https://www.youtube.com/watch?v=4EqsXf3XbUo
+12,Quadratic Equations,Math,Hard,Video,https://forms.gle/mathquiz5,https://www.youtube.com/watch?v=ZK3O402wf1c
+13,Ecosystems,Science,Hard,Text,https://forms.gle/sciencequiz5,https://www.youtube.com/watch?v=VgLyNqOFn8I
+14,Renaissance Art,History,Medium,Video,https://forms.gle/historyquiz4,https://www.youtube.com/watch?v=6Dlt9K0bCE0
+15,Fractions & Decimals,Math,Easy,Text,https://forms.gle/mathquiz6,https://www.youtube.com/watch?v=p33BYf1NDAE
+16,Genetics Basics,Science,Medium,Video,https://forms.gle/sciencequiz6,https://www.youtube.com/watch?v=8m6hHRlKwxY
+17,Modern World Conflicts,History,Hard,Quiz,https://forms.gle/historyquiz5,https://www.youtube.com/watch?v=3XAh1GJ3Qck
+18,Coordinate Geometry,Math,Medium,Text,https://forms.gle/mathquiz7,https://www.youtube.com/watch?v=EEJjwV3IWRk
+19,Acids and Bases,Science,Easy,Quiz,https://forms.gle/sciencequiz7,https://www.youtube.com/watch?v=QqjcCvzWwww
+20,Constitution of India,History,Medium,Text,https://forms.gle/historyquiz6,https://www.youtube.com/watch?v=RtYjjcMPdX0
