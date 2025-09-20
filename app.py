@@ -36,7 +36,7 @@ if st.button("Get Recommendations"):
         else:
             st.success(f"Found {len(results)} recommendation(s):")
 
-            # Show each recommendation with quiz + video links
+            # Show each recommendation with clickable buttons
             for _, row in results.iterrows():
                 st.markdown(f"### 📘 {row['title']}")
                 st.write(
@@ -45,13 +45,19 @@ if st.button("Get Recommendations"):
                     f"**Type:** {row.get('type','')}"
                 )
 
-                # Quiz link
+                # Quiz button (opens in new tab)
                 if 'quiz_link' in row and isinstance(row['quiz_link'], str) and row['quiz_link'].startswith("http"):
-                    st.markdown(f"[📝 Take Quiz]({row['quiz_link']})", unsafe_allow_html=True)
+                    st.markdown(
+                        f'<a href="{row["quiz_link"]}" target="_blank"><button style="background-color:#4CAF50; color:white; padding:6px 12px; border:none; border-radius:6px; cursor:pointer;">📝 Take Quiz</button></a>',
+                        unsafe_allow_html=True
+                    )
 
-                # Video link
+                # Video button (opens in new tab)
                 if 'video_link' in row and isinstance(row['video_link'], str) and row['video_link'].startswith("http"):
-                    st.markdown(f"[🎥 Watch Video]({row['video_link']})", unsafe_allow_html=True)
+                    st.markdown(
+                        f'<a href="{row["video_link"]}" target="_blank"><button style="background-color:#2196F3; color:white; padding:6px 12px; border:none; border-radius:6px; cursor:pointer; margin-left:8px;">🎥 Watch Video</button></a>',
+                        unsafe_allow_html=True
+                    )
 
                 st.markdown("---")
     except Exception as e:
